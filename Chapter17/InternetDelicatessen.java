@@ -6,16 +6,20 @@ public class InternetDelicatessen{
 
         Scanner scan = new Scanner(System.in);
 
-        double item, price, delivery, total;
+        double price = 0, delivery = 0, total = 0, yesNo = 0;
+
+        
+
+        String str;
 
         System.out.println("Enter the item:");
-        item = scan.nextDouble();
+        str = scan.nextLine();
 
         System.out.println("Enter the price:");
         price = scan.nextDouble();
 
         System.out.println("Overnight delivery?: (0 = no) , (1 = yes)");
-        item = scan.nextDouble();
+        yesNo = scan.nextDouble();
 
         if (price >= 1000){
             total = total + 200;
@@ -27,6 +31,9 @@ public class InternetDelicatessen{
 
         total = total + price;
 
-        
+        System.out.println("Invoice: ");
+        System.out.println(str + price);
+        System.out.println("Delivery" + delivery);
+        System.out.println("total" + total);
     }
 }
