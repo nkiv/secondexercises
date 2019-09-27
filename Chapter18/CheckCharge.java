@@ -12,7 +12,7 @@ public class CheckCharge{
         int checking = yourChecking;
 
 
-        System.out.print("Insert the balance in your checking: $");
+        System.out.print("Insert the balance in your savings: $");
 
         String theSavings = insertBalance.nextLine();
         Integer yourSavings = Integer.parseInt(theSavings);
