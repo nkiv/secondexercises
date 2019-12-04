@@ -4,8 +4,8 @@ public class Cone{
     private double height;
 
     public Cone( double radius, double height ){
-    this.radius = radius;
-    this.height = height;
+        this.radius = radius;
+        this.height = height;
     }
 
     public double area(){
