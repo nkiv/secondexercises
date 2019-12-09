@@ -26,7 +26,7 @@ public class Odious{
         if ((odiousCount % 2) == 1){
             System.out.println(saveuserNumb + " is an Odious Number");
         } else{
-            System.out.println(saveuserNumb + " is an evil Number!");
+            System.out.println(saveuserNumb + " gis an evil Number!");
         }
         System.out.println("--------------------------");
     }
