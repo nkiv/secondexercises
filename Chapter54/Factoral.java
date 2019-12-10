@@ -1,4 +1,4 @@
-public class Factorial{
+public class Factoral{
     
     public static long factorial(int N){
         long fct = 1;
@@ -10,6 +10,7 @@ public class Factorial{
             fct *= j;
             return fct;
         }
+        return fct;
     }
     public static long factorialAlt(int N){
         long fct = 1;
@@ -26,7 +27,7 @@ public class Factorial{
     public static void main(String [] args){
         int N = 20;
         System.out.println( "factorial of " + N );
-        System.out.println( "the secnod  method is : " + factorialAlt( N ));
+        System.out.println( "the second  method is : " + factorialAlt( N ));
         System.out.println( "the first method is : " + factorial( N ) ); 
         if(factorialAlt( N ) < 0 || factorial( N ) < 0) {
             System.out.println("Error");  
