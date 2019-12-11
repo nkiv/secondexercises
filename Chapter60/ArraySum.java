@@ -6,7 +6,7 @@ class ArraySum{
     int count = 3;
     int x = 3;
     while(count > 1){
-        sum = val[x] + val[x+1];
+        sum = val[x] + val[x];
         count--;
         x--;
         System.out.println(sum);
