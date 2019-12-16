@@ -8,7 +8,9 @@ public class ThreeArrays{
     
     // Add values from corresponding cells of valA and valB
     // and put the result in the corresponding cell of sum.
-
+    for(int i = 0; i < 4; i++){
+      sum[i] = valA[i] + valB[i];
+    }
 
 
  
